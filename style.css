@@ -12,7 +12,7 @@ html, body {
 
 .background {
     background-color: hsla(226, 100%, 8%, 1);
-    height: 350px;
+    height: 340px;
     width: 450px;
 
     display: flex;
@@ -92,12 +92,15 @@ html, body {
     color: white;
     
     display: flex;
+    
 }
 
-.text p {
+.footer {
   color: gray;
   margin: 0;
-  margin-top: 10px;
+  font-weight: 700;
+  font-size: small;
+  
 }
 
 
