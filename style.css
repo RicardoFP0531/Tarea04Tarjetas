@@ -66,30 +66,39 @@ html, body {
 }
 
 .textos {
+    
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    padding: 16px;
 }
 
-.contenido p {
-   font-size: xx-small;
+.textos p {
+    padding-top: 20px;
+    font-size: xx-small;
+    margin: 0;
 }
 
-.contenido h1 {
-
-
+.textos h1 {
+    margin: 0;
+    margin-top: 10px;
 }
-
 
 
 .transparent {
-    height: min-content;
+    
     width: 420px;
     border-radius: 8px;
     background-color: hsla(226, 100%, 8%, 1);
-
     color: white;
-    border: 1px solid red;
+    
     display: flex;
 }
+
+.text p {
+  color: gray;
+  margin: 0;
+  margin-top: 10px;
+}
+
+
 
