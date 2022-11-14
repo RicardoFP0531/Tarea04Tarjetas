@@ -20,30 +20,67 @@ html, body {
     flex-direction: column;
     justify-content: center;
     margin-top: 30px;
+    padding-bottom: 36px;
+    padding-top: 36px;
+ 
+}
+
+.puntos-arriba {
+    display: flex;
+    padding-right: 10px;
+    
+}
+
+.puntos-abajo {
+    display: flex;
+    padding-left: 10px;
+    
 }
 
 .arriba {
-    width: 40px;
+    width: 25px;
     margin-left: auto;
 }
 
 .abajo {
-    width: 40px;
+    width: 25px;
     margin-right: auto;
 }
 
 
 .yellow {
-    height: min-content;
+    height: 250px;
     width: 420px;
     border-radius: 8px;
-    background-color: yellow;
-    margin-top: 0px;
+    background-color: rgb(250, 219, 1);
+   
+   
+}
 
-    border: 1px solid green;
+.contenido {
+    height: 150px;
+    width: 420px;
+    
     display: flex;
 
 }
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenido p {
+   font-size: xx-small;
+}
+
+.contenido h1 {
+
+
+}
+
+
 
 .transparent {
     height: min-content;
@@ -55,3 +92,4 @@ html, body {
     border: 1px solid red;
     display: flex;
 }
+
