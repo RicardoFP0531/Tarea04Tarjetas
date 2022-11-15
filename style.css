@@ -2,15 +2,17 @@
 html, body {
 
     margin: 0;
-    height: 100%;
-    min-height: 100%;
+    padding: 0;
+    
     font-family: sans-serif;
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.background {
+.container {
     background-color: hsla(226, 100%, 8%, 1);
     height: 340px;
     width: 450px;
@@ -48,7 +50,7 @@ html, body {
 }
 
 
-.yellow {
+.card1 {
     height: 250px;
     width: 420px;
     border-radius: 8px;
@@ -95,13 +97,80 @@ html, body {
     
 }
 
-.footer {
+.footer1 {
   color: gray;
   margin: 0;
   font-weight: 700;
   font-size: small;
   
 }
+
+/* SEGUNDA TARJETA  */
+
+ .container2 {
+    background-color: rgb(155, 153, 152);
+    height: 340px;
+    width: 450px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 36px;
+    padding-top: 36px;
+ 
+}
+
+
+.card2 {
+    height: 200px;
+    width: 420px;
+    border-radius: 8px;
+    background-color: rgb(253, 253, 253);
+
+
+}
+
+
+
+.avatar1 {
+    width: 40px;
+    border-radius: 50%;
+    height: 36px;
+   
+    
+}
+
+.user1 { 
+    color: rgb(35, 122, 245);
+    font-weight: 200;
+    font-weight: 600;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+.monumento {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 9px;
+}
+
+.hermanos {
+    display: flex;
+    flex-direction: row;
+    /* background-color: coral; */
+    align-items: center;
+}
+
+.footer2 {
+    background-color: pink;
+}
+
 
 
 
